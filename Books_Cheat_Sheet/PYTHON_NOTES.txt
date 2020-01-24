@@ -1,0 +1,20 @@
+PYTHON NOTES:
+
+### Error handling with try-except
+Exceptions = error handling while code execution
+
+A good practice in writing your own functions is also anticipating the ways in which 
+other people (or yourself, if you accidentally misuse your own function) 
+might use the function you defined.
+
+- One way of doing this is through exception handling with the try-except block.
+
+	try:
+        [code]
+    except:
+		[code]
+		
+		
+- Another way to raise an error is by using raise.
+	if x < 0:
+		raise [Exception]('Message')
